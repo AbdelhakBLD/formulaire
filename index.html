@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>formulaire</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h2>Formulaire d'inscription (factice)</h2>
+      </div>
+      <form id="form" class="form">
+        <div class="form-control">
+          <label for="pseudo">Pseudo</label>
+          <input type="text" placeholder="xX-benoit-php-Xx" id="pseudo" />
+          <small>Message d'erreur</small>
+        </div>
+        <div class="form-control">
+          <label for="email">Email</label>
+          <input type="email" placeholder="dark-oO-benoit-Oo-du-59@laposte.fr" id="email" />
+          <small>Message d'erreur</small>
+        </div>
+        <div class="form-control">
+          <label for="motdepasse">Mot de passe</label>
+          <input type="password" placeholder="Mot de passe" id="motdepasse" />
+          <small>Message d'erreur</small>
+        </div>
+        <div class="form-control">
+          <label for="motdepasseconfirmer">Confirmer mot de passe</label>
+          <input type="password" placeholder="Confirmation du mot de passe" id="motdepasseconfirmer" />
+          <small>Message d'erreur</small>
+        </div>
+        <button id="submit" disabled>Submit</button>
+      </form>
+    </div>
+    <script src="assets/js/index.js"></script>
+  </body>
+</html>
