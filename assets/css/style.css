@@ -106,3 +106,8 @@ body {
 	margin-top: 20px;
 	width: 100%;
 }
+
+button:disabled {
+	background-color: #9a7dad;
+	border: 2px solid #9a7dad;
+}
